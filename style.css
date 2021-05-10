@@ -1,0 +1,81 @@
+ifbody.theme-Mine-Dark ul li ul {
+    border-left: 1px solid #373b45;
+}
+
+body.theme-Mine-Dark {
+    --main-font-family: monospace !important;
+    --main-font-size: normal;
+    --tree-font-family: inherit;
+    --tree-font-size: normal;
+    --detail-font-family: inherit;
+    --detail-font-size: normal;
+    --detail-text-font-family: inherit;
+    --font-size: 0.9rem !important;
+
+    --main-background-color: #2e3440;
+    --main-text-color: #d6dce7;
+    --main-border-color: #767b84;
+    --accented-background-color: #3b4252;
+    --more-accented-background-color: #2F343F;
+    --header-background-color: #353c4a;
+    --button-background-color: #434c5e;
+    --button-disabled-background-color: #404552;
+    --button-border-color: #373b45;
+    --button-text-color: #AFB8C6;
+    --button-border-radius: 6px;
+    --primary-button-background-color: #6c757d;
+    --primary-button-text-color: #d8dee9;
+    --primary-button-border-color: #6c757d;
+    --muted-text-color: #86919F;
+    --input-text-color: #d6dce7;
+    --input-background-color: #353c4a;
+    --hover-item-text-color: #d8dee9;
+    --hover-item-background-color: #4877B1;
+    --active-item-text-color: #d8dee9;
+    --active-item-background-color: #4c566a;
+    --menu-text-color: #AFB8C6;
+    --menu-background-color: #383C4A;
+    --tooltip-background-color: #383C4A;
+    --link-color: #88c0d0;
+    --modal-background-color: #3d4455;
+    --modal-backdrop-color: black;
+    --scrollbar-border-color: #353c4a;
+}
+
+.CodeMirror-lines {
+  font-family: monospace !important;
+  font-size: 0.9rem !important;
+  color: #88c0d0 !important;
+}
+
+#header {
+    padding-top: 0 !important; 
+}
+
+/* Just making the global button have the same spacing as the article title to the right */
+#global-buttons {
+    padding: 0 !important;
+    margin: 4px 15px 5px 5px !important;
+}
+
+/* Make the note title box rounded like the buttons and make sure the text is no longer flushed against the right side */
+.note-title {
+    border-radius: 5px;
+    padding-right: 5px
+}
+
+/* Make the code editor readable */
+.cm-s-default .cm-builtin { color: #b48ead !important; }
+.cm-s-default .cm-qualifier { color: #a3be8c !important; }
+.cm-s-default .cm-atom { color: #88c0d0 !important; }
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {color: #5e81ac !important; }
+.cm-s-default .cm-variable-2 {color: #81a1c1 !important; }
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #a3be8c !important; }
+.cm-s-default .cm-comment {color: #d08770 !important; }
+.cm-s-default .cm-tag {color: #a3be8c !important; }
+.cm-s-default .cm-keyword {color: #bf616a !important; }
+.cm-s-default .cm-number {color: #a3be8c !important; }
+.cm-s-default .cm-link {color: #88c0d0 !important; }
